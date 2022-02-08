@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.admin-head{
+    height: 4.5rem;
+    background: #061126ea;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+.admin-head> h1{
+    padding-top: 0.7rem;
+    display: inline-block;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    width: 200px;
+}
+.admin-head h2{
+    display: inline;
+    width: 250px;
+}
+.slider-admin{
+    background: #d5d5d5f7;
+    height: 600px;
+}
+
+.slider-admin ul{
+    list-style: none;
+    text-align: left;
+} 
+.slider-admin ul li{
+    margin-bottom: 0.3rem;
+    /* margin-right: 2rem; */
+    width: 200px;
+}
+.slider-admin ul li a{
+    font-size: 1.1rem;
+    color: #131360;
+    text-decoration: none;
+    padding-left: 0.6rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 180px;
+    display: inline-block;
+}
+
+.slider-admin ul li .active, .slider-admin ul li a:hover{
+    background: #131360;
+    color: #fff;
+} 
+div.content-admin{
+    min-height: 630px;
+}
+.content-admin div.bg-dark{
+    font-size: 1.4rem;
+    padding-bottom: 0.1rem;
+    padding-top: 0.4rem;
+}
+@media screen and (max-width:700px){
+    .slider-admin{
+        height: auto;
+    }
+}
+
+.box{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width:480px){
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.7rem;
+    }
+    .admin-head> h1{
+        width: 160px;
+        font-size: 2rem;
+    }
+    .admin-head h2{
+        display: inline;
+        width: 200px;
+        font-size: 1.4rem;
+    }
+    .table{
+        font-size: 0.8em;
+    }
+    .course-font-size{
+        font-size: 1.3rem;
+    }
+}

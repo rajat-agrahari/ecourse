@@ -1,0 +1,143 @@
+
+/* embebd google ubantu fant */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Navbar brand name */
+.navbar-brand h3{
+    font-family: 'Ubuntu', sans-serif ;
+    margin-bottom: 0.3rem;
+}
+
+
+/* Front Page video */
+video{
+    width: 100%;
+    height: 100%;
+}
+
+/* hontent over video */
+.video-content{
+    position:absolute; 
+    top:30%;
+    left:36%;
+    width: 30%;
+    text-align: center;
+}
+.video-content h1{
+    color: #fff;
+}
+.video-content small{
+    display: block;
+    margin-top: 1.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+}
+.btn-danger{
+    background-color: #ff061e;
+}
+
+/* Banner css */
+.banner-container{
+    margin-top: 0;
+    background-color: #ff0d0d;
+}
+.banner-container .row .banner-content{
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+/* Start Courses */
+
+.card-deck .card-a-link{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Contact */
+.contact-side-design{
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(240deg,#ff1818,#740602);
+    padding-top: 2.2rem;
+    height: 200px;
+    transform: rotate(10deg);
+}
+/* About footer */
+.container-about{
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 8%;
+    background: #190603;
+    color: #fff;
+}
+
+/* footer social logo */
+.social-logo{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #fff;
+}
+#fb-logo-hover:hover{
+    color: #4267B2;
+}
+#insta-logo-hover:hover{
+    color: #bc2a8d;
+}
+#twitter-logo-hover:hover{
+    color: #1DA1F2;
+}
+#google-logo-hover:hover{
+    color: #4285F4;
+}
+.footer-color{
+    background-color: #000;
+}
+/********************* Course Page *********************/
+.img-bg{
+    width: 100%;
+    height: 80vh;
+}
+
+/***************** Payment Page ********************/
+.payment-row{
+    justify-content: center;
+}
+
+
+
+
+/* Media query */
+
+@media only screen and (max-width:480px){
+    h1{
+        font-size: 2rem;
+    }
+    .img-bg{
+        width: 100%;
+        height: 45vh;
+    }
+    h2{
+        font-size: 1.7rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width:760px){
+    .video-content{
+        display: none;
+    }
+    .banner-container .row .banner-content{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .contact-side-design{
+        display: none;
+    }
+}

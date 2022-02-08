@@ -1,0 +1,94 @@
+
+/* embebd google ubantu fant */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+
+/* Navbar brand name */
+.navbar-brand h3{
+font-family: 'Ubuntu', sans-serif ;
+margin-bottom: 0.3rem;
+}
+
+
+/* Front Page video */
+video{
+width: 100%;
+height: 100%;
+}
+
+/* Content over video */
+.video-content{
+position:absolute; 
+top:30%;
+left:36%;
+width: 30%;
+ text-align: center;
+}
+.video-content h1{
+color: #fff;
+}
+.video-content small{
+display: block;
+margin-top: 1.3rem;
+font-size: 1rem;
+font-weight: 600;
+}
+
+/* Media query for video - content */
+
+@media only screen and (max-width:480px){
+ video{
+height: 700px;
+width: 100%;
+} 
+    .video-content{
+        display: none;
+    }
+
+}
+
+/* Banner css */
+.banner-container{
+margin-top: 0;
+background-color: #ff0d0d;
+}
+.banner-container .row .banner-content{
+color: #fff;
+padding-top: 2rem;
+padding-bottom: 2rem;
+}
+/* Start Courses */
+
+.card-deck .card-a-link{
+text-decoration: none;
+color: #000000;
+}
+
+/* Contact */
+.contact-side-design{
+text-align: center;
+color: #fff;
+/* background: #ff1818; */
+background-image: linear-gradient(240deg,#ff1818,#740602);
+padding-top: 2.2rem;
+height: 200px;
+transform: rotate(10deg);
+}
+
+/* footer social logo */
+.social-logo{
+font-size: 1.8rem;
+text-decoration: none;
+color: #000;
+}
+
+/********************* Course Page *********************/
+#img-bg{
+width: 100%;
+height: 80vh;
+}
+
+/***************** Payment Page ********************/
+.payment-row{
+justify-content: center;
+}
